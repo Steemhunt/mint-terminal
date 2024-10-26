@@ -8,7 +8,7 @@ dotenv.config();
 
 const neynarClient = new NeynarAPIClient(process.env.NEYNAR_API_KEY as string);
 
-export const publishCast = async (
+export async function publishCast(
   text: string,
   options?: {
     embeds?: Embed[];
@@ -17,10 +17,10 @@ export const publishCast = async (
     idem?: string;
     parent_author_fid?: number;
   }
-): Promise<PostCastResponseCast> => {
+): Promise<PostCastResponseCast> {
   return await neynarClient.publishCast(
     process.env.SIGNER_UUID as string,
     text,
     options
   );
-};
+}
