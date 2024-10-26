@@ -28,5 +28,6 @@ http://localhost:3000/?test=create a cat themed meme coin, backed by $mfer
 
 ## Future Work
 
-- [ ] Create a bot to reply to general casts, not just for minting all the time
+- [ ] Bot can reply to general casts, not just for minting all the time
+- [ ] Bot reads the thread history (parent casts) to maintain a conversation
 - [ ] Generate a token logo, upload it to Mint Club
