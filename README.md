@@ -5,6 +5,7 @@ An AI meme coin assistant on Farcaster.
 ## Dev Environment
 
 ```sh
+cp .env.example .env.local
 bun install
 bun start.ts # run the webhook receiver
 ngrok http 3000 # expose the local server to receive webhooks from Neynar
