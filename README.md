@@ -25,3 +25,8 @@ ngrok http 3000 # expose the local server to receive webhooks from Neynar
 # TEST MODE - show prepared params, but don't create
 http://localhost:3000/?test=create a cat themed meme coin, backed by $mfer
 ```
+
+## Future Work
+
+- [ ] Create a bot to reply to general casts, not just for minting all the time
+- [ ] Generate a token logo, upload it to Mint Club
