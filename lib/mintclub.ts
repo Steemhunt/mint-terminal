@@ -19,7 +19,9 @@ const publicClient = createPublicClient({
   chain: base,
   transport: http(),
 });
-const account = privateKeyToAccount(process.env.WALLET_P_KEY as `0x${string}`);
+const account = privateKeyToAccount(
+  process.env.MINTING_WALLET_P_KEY as `0x${string}`
+);
 const walletClient = createWalletClient({
   account,
   chain: base,
