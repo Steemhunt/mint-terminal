@@ -10,7 +10,7 @@ An AI meme coin assistant living on Farcaster.
 ## Dev Environment
 
 ```sh
-# Copy the example env file
+# Copy the example env file and set the values
 cp .env.example .env.local
 
 # Get a signer UUID
